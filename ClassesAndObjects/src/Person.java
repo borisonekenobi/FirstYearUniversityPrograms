@@ -1,46 +1,74 @@
 public class Person {
-    //Define the class variables
-    private String firstName;
-    private String lastName;
-    private String emailAddress;
-    private int yearOfBirth;
+	//Define the class variables
+	private String firstName;
+	private String lastName;
+	private String emailAddress;
+	private int yearOfBirth;
 
-    //Define the class accessors and mutators (getters and setters)
-    //These are the class setter methods (mutators)
-    public void setFirstName(String fName) {
-        firstName = fName;
-    }
+	//This is the default constructor
+	public Person () {
+		firstName = "unknown";
+		lastName = "unknown";
+		yearOfBirth = 2004;
+	}
 
-    public void setLastName(String lName) {
-        lastName = lName;
-    }
+	public Person (String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		yearOfBirth = 2004;
+	}
 
-    public void setEmailAddress(String email) {
-        emailAddress = email;
-    }
+	//Define the class accessors and mutators (getters and setters)
+	//These are the class setter methods (mutators)
 
-    public void setYearOfBirth(int yBirth) {
-        yearOfBirth = yBirth;
-    }
+	public void setFirstName (String firstName) {
+		this.firstName = firstName;
+	}
 
-    //These are the class getter methods (accessors)
-    public String getFirstName() {
-        return firstName;
-    }
+	public void setLastName (String lName) {
+		lastName = lName;
+	}
 
-    public String getLastName() {
-        return lastName;
-    }
+	public void setEmailAddress (String email) {
+		emailAddress = email;
+	}
 
-    public String getEmailAddress() {
-        return emailAddress;
-    }
+	public void setYearOfBirth (int yBirth) {
+		yearOfBirth = yBirth;
+	}
 
-    public int getYearOfBirth() {
-        return yearOfBirth;
-    }
+	//These are the class getter methods (accessors)
+	public String getFirstName () {
+		return firstName;
+	}
 
-    public String getFullName() {
-        return lastName + ", " + firstName;
-    }
+	public String getLastName () {
+		return lastName;
+	}
+
+	public String getEmailAddress () {
+		return emailAddress;
+	}
+
+	public int getYearOfBirth () {
+		return yearOfBirth;
+	}
+
+	public String getFullName () {
+		return lastName + ", " + firstName;
+	}
+
+	public int getAge () {
+		return 2022 - yearOfBirth;
+	}
+
+	public String getAgeStage() {
+		if (getAge() <= 1) return "Infant";
+		else if (getAge() <= 4) return "Toddler";
+		else if (getAge() <= 12) return "Child";
+		else if (getAge() <= 19) return "Teen";
+		else if (getAge() <= 39) return "Adult";
+		else if (getAge() <= 59) return "Middle Age Adult";
+		else return "Senior Adult";
+	}
 }

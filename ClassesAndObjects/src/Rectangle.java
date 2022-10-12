@@ -21,4 +21,9 @@ public class Rectangle {
 	public double getArea() {
 		return length * width;
 	}
+
+	public void set(double len, double w) {
+		length = len;
+		width = w;
+	}
 }
