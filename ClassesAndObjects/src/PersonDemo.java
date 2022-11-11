@@ -9,6 +9,8 @@ public class PersonDemo {
 		me.setLastName("Vasilev");
 		me.setYearOfBirth(2004);
 
+		me.setEmailAddress("abc@uwo.ca");
+
 		//you.setFirstName("Mike");
 		//you.setLastName("Smith");
 		you.setYearOfBirth(2000);
@@ -21,6 +23,6 @@ public class PersonDemo {
 		} else {
 			System.out.println(me.getFirstName() + " and " + you.getFirstName() + " have the same age");
 		}
-		//System.out.println("Welcome " + you.getFullName() + "\nIt's me " + me.getFirstName());
+		System.out.println("Welcome " + you.getFullName() + "\nIt's me " + me.getFirstName());
 	}
 }

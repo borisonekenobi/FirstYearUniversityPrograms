@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AboutMe/AboutMe.iml" filepath="$PROJECT_DIR$/AboutMe/AboutMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassesAndObjects/ClassesAndObjects.iml" filepath="$PROJECT_DIR$/ClassesAndObjects/ClassesAndObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstProject/FirstProject.iml" filepath="$PROJECT_DIR$/FirstProject/FirstProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FirstYearUniversityPrograms.iml" filepath="$PROJECT_DIR$/.idea/FirstYearUniversityPrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForLoops/ForLoops.iml" filepath="$PROJECT_DIR$/ForLoops/ForLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Midterm/Midterm.iml" filepath="$PROJECT_DIR$/Midterm/Midterm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz 1/Quiz 1.iml" filepath="$PROJECT_DIR$/Quiz 1/Quiz 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz 2/Quiz 2.iml" filepath="$PROJECT_DIR$/Quiz 2/Quiz 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz 3/Quiz 3.iml" filepath="$PROJECT_DIR$/Quiz 3/Quiz 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz 4/Quiz 4.iml" filepath="$PROJECT_DIR$/Quiz 4/Quiz 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz 5/Quiz 5.iml" filepath="$PROJECT_DIR$/Quiz 5/Quiz 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz 6/Quiz 6.iml" filepath="$PROJECT_DIR$/Quiz 6/Quiz 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScoreConverter/ScoreConverter.iml" filepath="$PROJECT_DIR$/ScoreConverter/ScoreConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwitchDemo/SwitchDemo.iml" filepath="$PROJECT_DIR$/SwitchDemo/SwitchDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 3/Task1/Task1.iml" filepath="$PROJECT_DIR$/Lab 3/Task1/Task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 6/Task1/Task11.iml" filepath="$PROJECT_DIR$/Lab 6/Task1/Task11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 1/Task1/Task12.iml" filepath="$PROJECT_DIR$/Lab 1/Task1/Task12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 4/Task1/Task13.iml" filepath="$PROJECT_DIR$/Lab 4/Task1/Task13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 2/Task1/Task14.iml" filepath="$PROJECT_DIR$/Lab 2/Task1/Task14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 5/Task1/Task15.iml" filepath="$PROJECT_DIR$/Lab 5/Task1/Task15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 3/Task2/Task2.iml" filepath="$PROJECT_DIR$/Lab 3/Task2/Task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 1/Task2/Task21.iml" filepath="$PROJECT_DIR$/Lab 1/Task2/Task21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 6/Task2/Task22.iml" filepath="$PROJECT_DIR$/Lab 6/Task2/Task22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 4/Task2/Task23.iml" filepath="$PROJECT_DIR$/Lab 4/Task2/Task23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 2/Task2/Task24.iml" filepath="$PROJECT_DIR$/Lab 2/Task2/Task24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 5/Task2/Task25.iml" filepath="$PROJECT_DIR$/Lab 5/Task2/Task25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 3/Task3/Task3.iml" filepath="$PROJECT_DIR$/Lab 3/Task3/Task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 6/Task3/Task31.iml" filepath="$PROJECT_DIR$/Lab 6/Task3/Task31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 5/Task3/Task32.iml" filepath="$PROJECT_DIR$/Lab 5/Task3/Task32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 3/Task4/Task4.iml" filepath="$PROJECT_DIR$/Lab 3/Task4/Task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 6/Task4/Task41.iml" filepath="$PROJECT_DIR$/Lab 6/Task4/Task41.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 5/Task4/Task42.iml" filepath="$PROJECT_DIR$/Lab 5/Task4/Task42.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 6/Task5/Task5.iml" filepath="$PROJECT_DIR$/Lab 6/Task5/Task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 5/Task5/Task51.iml" filepath="$PROJECT_DIR$/Lab 5/Task5/Task51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 6/Task6/Task6.iml" filepath="$PROJECT_DIR$/Lab 6/Task6/Task6.iml" />
+    </modules>
+  </component>
+</project>

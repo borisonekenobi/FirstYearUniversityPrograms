@@ -4,6 +4,15 @@ public class Cylinder {
 	private double height;
 	private final double PI = 3.14159;
 
+	public Cylinder(double radius, double height) {
+		this.radius = radius;
+		this.height = height;
+	}
+
+	public Cylinder () {
+
+	}
+
 	// Setter methods
 	public void setRadius(double radius) {
 		this.radius = radius;

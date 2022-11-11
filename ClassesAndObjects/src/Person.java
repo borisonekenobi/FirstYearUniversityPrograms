@@ -71,4 +71,8 @@ public class Person {
 		else if (getAge() <= 59) return "Middle Age Adult";
 		else return "Senior Adult";
 	}
+
+	public String about() {
+		return String.format("%20s %s\n%20s %s\n%20s %d", "Full Name:", getFullName(), "Email Address:", emailAddress, "Age:", getAge());
+	}
 }

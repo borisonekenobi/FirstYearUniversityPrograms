@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SayHello">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FirstProject/SayHello.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
