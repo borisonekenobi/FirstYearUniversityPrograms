@@ -13,7 +13,7 @@ public class FileDisplay {
 		File file = new File(fileName); // create a File object
 		if (!file.exists()) { // check if the file exists
 			System.out.println("The file does not exists"); // print that the file does not exist
-			return; // exit the method
+			System.exit(0); // exit the program
 		}
 		Scanner scanner = new Scanner(file); // create a Scanner object
 		while (scanner.hasNext()) { // loop until end of file
@@ -25,7 +25,7 @@ public class FileDisplay {
 		File file = new File(fileName); // create a File object
 		if (!file.exists()) { // check if file exists
 			System.out.println("The file does not exists"); // print that the file does not exist
-			return; // exit the method
+			System.exit(0); // exit the program
 		}
 		Scanner scanner = new Scanner(file); // create a Scanner object
 		while (scanner.hasNext() && n > 0) { // loop until end of file or have reached the specified line number
@@ -38,7 +38,7 @@ public class FileDisplay {
 		File file = new File(fileName); // create a File object
 		if (!file.exists()) { // check if file exists
 			System.out.println("The file does not exists"); // print that the file does not exist
-			return; // exit the method
+			System.exit(0); // exit the program
 		}
 		Scanner scanner = new Scanner(file); // create a Scanner object
 		int currentLine = 1; // int variable to store the current line number
