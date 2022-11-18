@@ -6,21 +6,7 @@ public class Person {
 	private String emailAddress;
 	private Address personAddress;
 
-	//This is the default constructor
-	public Person () {
-		firstName = "unknown";
-		lastName = "unknown";
-		yearOfBirth = 2004;
-	}
-
-	public Person (String firstName, String lastName) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		yearOfBirth = 2004;
-	}
-
-	//Define the class accessors and mutators (getters and setters)
-	//These are the class setter methods (mutators)
+	private Car[] cars;
 
 	public void setFirstName (String firstName) {
 		this.firstName = firstName;
@@ -65,6 +51,10 @@ public class Person {
 
 	public void setPersonAddress (Address personAddress) {
 		this.personAddress = personAddress;
+	}
+
+	public void setCars() {
+
 	}
 
 	public String getAgeStage() {
