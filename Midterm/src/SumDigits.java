@@ -24,8 +24,9 @@ import java.util.Scanner;
 public class SumDigits {
 	public static void main (String[] args) {
 		Scanner input = new Scanner(System.in);
+		// Read a number
 		System.out.print("Enter any number that is greater than 0 and less than 100: ");
-//		int number = input.nextInt();
+		int number = input.nextInt();
 //		int left = number / 100;
 //		int mid = number / 10 % 10;
 //		int right = number % 10;
