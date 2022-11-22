@@ -6,7 +6,7 @@ public class Address {
 	private int houseNumber;
 	private String postalCode;
 
-	public Address() {
+	public Address () {
 		country = "Canada";
 	}
 
@@ -58,8 +58,8 @@ public class Address {
 		return postalCode;
 	}
 
-	public String toString() {
-		return String.format("\n%20s %s\n%20s %s\n%20s %s\n",
+	public String toString () {
+		return String.format("\n%20s %s\n%20s %s\n%20s %s",
 				"Country:", country,
 				"Province:", province,
 				"City:", city);

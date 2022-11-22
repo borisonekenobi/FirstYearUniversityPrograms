@@ -1,7 +1,5 @@
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.Scanner;
 
 public class PersonDemo {
 	public static void main (String[] args) throws FileNotFoundException {
@@ -25,8 +23,6 @@ public class PersonDemo {
 
 		me.setPersonAddress(address);
 
-		//System.out.println(me);
-
 		pw.println(me);
 		//pw.println();
 		pw.println(you);
@@ -34,17 +30,24 @@ public class PersonDemo {
 		pw.close();
 
 		// open the file for input
-		File iFile = new File("oFile.txt"); // Creates the existing file to read from it as input to the program
-		Scanner input = new Scanner(iFile);
+//		File iFile = new File("oFile.txt"); // Creates the existing file to read from it as input to the program
+//		Scanner input = new Scanner(iFile);
+//
+//		int counter = 0;
+//		while (input.hasNext()) {
+//			counter++;
+//			String line = input.nextLine();
+//			if (counter == 1 || counter == 8) {
+//				System.out.println(line);
+//			}
+//		}
 
-		int counter = 0;
-		while (input.hasNext()) {
-			counter++;
-			String line = input.nextLine();
-			if (counter == 1 || counter == 8) {
-				System.out.println(line);
-			}
-		}
+		Car car1 = new Car("Honda", "Civic", 2022);
+
+		me.addCar(car1);
+		me.addCar(new Car("Mercedes-Benz", "S-Class", 2018));
+
+		System.out.println(me);
 
 		//System.out.println(me.equals(you));
 	}
