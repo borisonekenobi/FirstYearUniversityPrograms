@@ -5,7 +5,7 @@ import Inheritance.GradedActivity;
 // This program demonstrates polymorphic behavior.
 public class Polymorphic {
 	public static void main (String[] args) {
-		// Create an array of test.GradedActivity references.
+		// Create an array of test.Interfaces.GradedActivity references.
 		GradedActivity[] tests = new GradedActivity[3];
 		// The first test is a regular exam with a numeric score of 95.
 		tests[0] = new GradedActivity();
