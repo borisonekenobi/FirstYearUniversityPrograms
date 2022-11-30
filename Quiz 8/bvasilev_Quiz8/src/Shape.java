@@ -1,5 +1,3 @@
-public class Shape {
-	public double getArea() {
-		return 0;
-	}
+public abstract class Shape {
+	public abstract double getArea();
 }

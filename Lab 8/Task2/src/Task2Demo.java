@@ -1,11 +1,11 @@
-public class Task2Demo {
-	public static void main (String[] args) {
-		Cat cat = new Cat();
-		Dog dog = new Dog();
-		Duck duck = new Duck();
+public class Task2Demo { // class called Task2Demo
+	public static void main (String[] args) { // main method
+		Cat cat = new Cat(); // creates instance of class Cat called cat
+		Dog dog = new Dog(); // creates instance of class Dog called dog
+		Duck duck = new Duck(); // creates instance of class Duck called duck
 
-		System.out.println("Cat says:\n" + cat.say() + '\n');
-		System.out.println("Dog says:\n" + dog.say() + '\n');
-		System.out.println("Duck says:\n" + duck.say());
+		System.out.println("Cat says:\n" + cat.say() + '\n'); //invoke the method say() and prints the return value using System.out.println
+		System.out.println("Dog says:\n" + dog.say() + '\n'); //invoke the method say() and prints the return value using System.out.println
+		System.out.println("Duck says:\n" + duck.say()); //invoke the method say() and prints the return value using System.out.println
 	}
 }
