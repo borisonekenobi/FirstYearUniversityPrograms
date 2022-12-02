@@ -34,8 +34,8 @@ public class ProductionWorker extends Employee { // Java class named Employee wh
 	}
 
 	public String toString () { // toString() method developed to produce the expected output
-		return super.toString() + String.format("\n%s: %s\n%s: %f",
-				"Shift", getShift() == 0 ? "Day" : "Night",
+		return super.toString() + String.format("\n%s: %s\n%s: $%.2f",
+				"Shift", getShift() == 1 ? "Day" : "Night",
 				"Hourly Pay Rate", getPayRate());
 	}
 }
