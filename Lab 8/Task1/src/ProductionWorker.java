@@ -1,4 +1,4 @@
-public class ProductionWorker extends Employee { // Java class named Employee which inherits from the Employee class
+public class ProductionWorker extends Employee { // Java class named ProductionWorker which inherits from the Employee class
 	private int shift; // Field to hold shift (an integer)
 	private double payRate; // Field to hold hourly pay rate (a double)
 	public static final int DAY_SHIFT = 1; // integer value representing the day shift
@@ -6,9 +6,6 @@ public class ProductionWorker extends Employee { // Java class named Employee wh
 
 	public ProductionWorker (String n, String num, String date, int sh, double rate) { // multi-args constructor
 		super(n, num, date);
-		setName(n);
-		setEmployeeNumber(num);
-		setHireDate(date);
 		setShift(sh);
 		setPayRate(rate);
 	}
