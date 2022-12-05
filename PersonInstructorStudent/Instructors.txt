@@ -1,0 +1,7 @@
+First name, Last name, Office Number, Department
+Mary Brown ABC123 Ivey Business School
+Denise Richards ABC345 Department of Chemistry
+Debra Lewis XYZ123 Mechanical Engineering
+Larry Reyes XYZ234 Electrical and Computer Engineering
+Nancy Harrison XYZ456 Civil Engineering
+Angela Murray ABC567 Chemical Engineering

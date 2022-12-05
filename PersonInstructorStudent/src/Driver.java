@@ -26,7 +26,6 @@ public class Driver {
 				System.out.println(sNumber + " " + cName);
 			}
 			tempSN = sNumber;
-				System.out.println();
 		}
 	}
 }
