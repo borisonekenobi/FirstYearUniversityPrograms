@@ -2,8 +2,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Driver {
+public class StudentsDB {
     public static void main(String[] args) throws FileNotFoundException {
+        // define an array to hold the students information
+        Student[] studentsArray = new Student[10]; // we assume that the maximum number of students is 10.
+        int noOfStudents = -1;
         // create an object of type File
         File inputFile = new File("students.txt");
         // create a scanner object that read from text file
@@ -21,11 +24,25 @@ public class Driver {
 
             // check if we read the same student or not
             if (currentStudentNumber.equals(previousStudentNumber)) {
-                System.out.println( "          " + cName);
+                // add the new course to the current student
+                Course aCourse = new Course(cCode, cNumber, cName);
+                studentsArray[noOfStudents].addCourse(aCourse);
             } else {
-                System.out.println(currentStudentNumber + " " + cName);
+                // create a new student object
+                Student st = new Student(sFirstName, sLastName, currentStudentNumber);
+                // create a course object
+                Course aCourse = new Course(cCode, cNumber, cName);
+                st.addCourse(aCourse);
+                studentsArray[++noOfStudents] = st;
+
             }
             previousStudentNumber = currentStudentNumber;
         }
+
+        // let us now print out the students array elements
+        for (int i = 0; i < noOfStudents; i++) {
+            System.out.println(studentsArray[i]);
+        }
+
     }
 }

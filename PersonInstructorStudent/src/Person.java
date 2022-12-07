@@ -1,13 +1,15 @@
 public class Person {
-	private String firstName;
-	private String lastName;
+    // Define the class fields
+    private String firstName;
+    private String lastName;
 
-	public Person (String firstName, String lastName) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-	}
+    // Define the class constructor - constructor with arguments.
+    public Person(String firstName, String lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
-	public String toString () {
-		return String.format("%20s %30s\n", "Full name:", firstName + " " + lastName);
-	}
+    public String toString(){
+        return firstName +" "+lastName;
+    }
 }
