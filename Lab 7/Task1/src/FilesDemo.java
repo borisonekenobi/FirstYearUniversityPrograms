@@ -5,14 +5,14 @@ public class FilesDemo {
 		String fileName = "lines.txt"; // String variable that stores the name of the file
 
 		FileSave fileSave = new FileSave(fileName); // FileSave variable that will create the file
-		fileSave.save("1-Lorem ipsum dolor sit amet"); // save string to the file
-		fileSave.save("2-Consectetuer adipiscing elit"); // save string to the file
-		fileSave.save("3-Sed diam nonummy nibh euismod tincidunt"); // save string to the file
-		fileSave.save("4-Ut wisi enim ad minim veniam"); // save string to the file
-		fileSave.save("5-Quis nostrud exerci tation ullamcorper"); // save string to the file
-		fileSave.save("6-Suscipit lobortis nisl ut aliquip ex ea commodo consequat"); // save string to the file
-		fileSave.save("7-Duis autem vel eum iriure dolor in hendrerit"); // save string to the file
-		fileSave.save("8-Vel illum dolore eu feugiat nulla facilisis at vero eros"); // save string to the file
+		fileSave.save("1-Lorem ipsum dolor sit amet\n"); // save string to the file
+		fileSave.save("2-Consectetuer adipiscing elit\n"); // save string to the file
+		fileSave.save("3-Sed diam nonummy nibh euismod tincidunt\n"); // save string to the file
+		fileSave.save("4-Ut wisi enim ad minim veniam\n"); // save string to the file
+		fileSave.save("5-Quis nostrud exerci tation ullamcorper\n"); // save string to the file
+		fileSave.save("6-Suscipit lobortis nisl ut aliquip ex ea commodo consequat\n"); // save string to the file
+		fileSave.save("7-Duis autem vel eum iriure dolor in hendrerit\n"); // save string to the file
+		fileSave.save("8-Vel illum dolore eu feugiat nulla facilisis at vero eros\n"); // save string to the file
 
 		FileDisplay fileDisplay = new FileDisplay(fileName); // FileDisplay variable that will display the variable
 		fileDisplay.display(); // display the entire file
